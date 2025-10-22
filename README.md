@@ -400,6 +400,10 @@ serial: /dev/serial/by-id/usb-Klipper_stm32g0b1xx_20003A00025030544E383020-if00
 
 ## 5. Happy Hare Software Configuration
 
+> [!TIP]
+> For all microswitch inputs, you need to add the pull-up symbol "^" before the PIN.  
+> Binky does not require it.  
+
 After installation, you need to go to the mmu/base/mmu.cfg file to modify the pin-related content. Copy the content below and overwrite the corresponding section [compatible with HH3.2 and above versions].
 
 HappyHare adaptation is in progress.
