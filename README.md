@@ -162,11 +162,8 @@ make flash FLASH_DEVICE=0483:df11
 After flashing is complete, please unplug the USB cable and connect the CAN signal cable and 24V power supply.
 
 > [!IMPORTANT]
-
 > 1: Remember to remove the 5V USB jumper.
-
 > 2: If you have multiple CAN devices, you only need to short the 120-ohm resistor on one device. It is best to short the 120-ohm resistor on the mainboard at the end of the chain.
-
 > 3: Pay close attention to the wiring order of 24V, GND, CAN-H, and CAN-L. Double-check carefully. Incorrect wiring may cause the mainboard to burn out, and you will be responsible for the consequences.
 
 
