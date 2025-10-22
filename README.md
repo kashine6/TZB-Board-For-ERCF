@@ -2,6 +2,8 @@
 
 English | [中文](README_CN.md)
 
+![img](Assets/1.jpg)
+
 ---
 
 ## Table of Contents
@@ -18,8 +20,6 @@ English | [中文](README_CN.md)
 - [6. I2C Temperature and Humidity Configuration](#6-i2c-temperature-and-humidity-configuration)
 
 ---
-
-![img](Assets/1.jpg)
 
 
 
