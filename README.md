@@ -114,7 +114,7 @@ If you are using 24V to power the board, you do not need to short the jumper, bu
 
 **Method 1 to enter DFU:** With the board completely powered off, press and hold the Boot button, connect the board to the host computer with a Type-C cable, then release the Boot button.
 
-**Method 2 to enter DFU: **If the board is powered on, connect it to the host computer with a Type-C cable, then press and hold the Boot button, press and release the Reset button, release the Reset button, and finally release the Boot button.
+**Method 2 to enter DFU:** If the board is powered on, connect it to the host computer with a Type-C cable, then press and hold the Boot button, press and release the Reset button, release the Reset button, and finally release the Boot button.
 
 Then use the lsusb command to check if a DFU device is present.
 
