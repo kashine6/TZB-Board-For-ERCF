@@ -390,7 +390,7 @@ serial: /dev/serial/by-id/usb-Klipper_stm32g0b1xx_20003A00025030544E383020-if00
 
 
 
-![img](Assets/25.jpg)
+![img](Assets/25-en.jpg)
 
 
 
