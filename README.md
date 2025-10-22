@@ -66,7 +66,7 @@ Users who only use a CAN connection and want the convenience of quick firmware u
 
 Katapult is not mandatory, regardless of whether you use a CAN or USB connection.
 
-```
+```bash
 # Go to the home directory
 cd ~
  
