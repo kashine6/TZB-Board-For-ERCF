@@ -129,9 +129,9 @@ If you are using 24V to power the board, you do not need to short the jumper, bu
 
 ![img](Assets/7.png)
 
-**Method 1 to enter DFU:** With the board completely powered off, press and hold the Boot button, connect the board to the host computer with a Type-C cable, then release the Boot button.
+- **Method 1 to enter DFU:** With the board completely powered off, press and hold the Boot button, connect the board to the host computer with a Type-C cable, then release the Boot button.
 
-**Method 2 to enter DFU:** If the board is powered on, connect it to the host computer with a Type-C cable, then press and hold the Boot button, press and release the Reset button, release the Reset button, and finally release the Boot button.
+- **Method 2 to enter DFU:** If the board is powered on, connect it to the host computer with a Type-C cable, then press and hold the Boot button, press and release the Reset button, release the Reset button, and finally release the Boot button.
 
 Then use the lsusb command to check if a DFU device is present.
 
@@ -161,11 +161,13 @@ make flash FLASH_DEVICE=0483:df11
 
 After flashing is complete, please unplug the USB cable and connect the CAN signal cable and 24V power supply.
 
-**Note 1: Remember to remove the 5V USB jumper.**
+> [!NOTE]
 
-**Note 2: If you have multiple CAN devices, you only need to short the 120-ohm resistor on one device. It is best to short the 120-ohm resistor on the mainboard at the end of the chain.**
+> 1: Remember to remove the 5V USB jumper.
 
-**Note 3: Pay close attention to the wiring order of 24V, GND, CAN-H, and CAN-L. Double-check carefully. Incorrect wiring may cause the mainboard to burn out, and you will be responsible for the consequences.**
+> 2: If you have multiple CAN devices, you only need to short the 120-ohm resistor on one device. It is best to short the 120-ohm resistor on the mainboard at the end of the chain.
+
+> 3: Pay close attention to the wiring order of 24V, GND, CAN-H, and CAN-L. Double-check carefully. Incorrect wiring may cause the mainboard to burn out, and you will be responsible for the consequences.
 
 
 
@@ -256,11 +258,13 @@ make
 
 Connect the CAN signal cable and 24V power supply.
 
-**Note 1: Remember to remove the 5V USB jumper.**
+> [!NOTE]
 
-**Note 2: If you have multiple CAN devices, you only need to short the 120-ohm resistor on one device.**
+> 1: Remember to remove the 5V USB jumper.
 
-**Note 3: Pay close attention to the wiring order of 24V, GND, CAN-H, and CAN-L. Double-check carefully. Incorrect wiring may cause the mainboard to burn out, and you will be responsible for the consequences.**
+> 2: If you have multiple CAN devices, you only need to short the 120-ohm resistor on one device.
+
+> 3: Pay close attention to the wiring order of 24V, GND, CAN-H, and CAN-L. Double-check carefully. Incorrect wiring may cause the mainboard to burn out, and you will be responsible for the consequences.
 
 
 ![img](Assets/17.png)
