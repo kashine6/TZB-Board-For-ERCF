@@ -31,18 +31,18 @@ It has the following features:
 
 - Main chip uses STM32G0B1CBT6 MCU
 - Supports both USB serial and CAN interface connections
-- 2 motor slots based on TMC2209 in UART mode, supporting sensorless homing (Diag)
+- 2 stepper motor slots based on TMC2209 in UART mode, supporting sensorless homing (Diag)
 - The 5V interface can provide a large current of 5A, with optimized inductor and capacitor heat dissipation to ensure sufficient and stable power for servos and LEDs
 - Two mirrored 2x7P XHD2.0 connectors, convenient for paralleling the two sets of microswitches in ERCF V3, simplifying wiring
 - All silkscreen labels are on the front for ease of use
 - 1 x RGB LED connector
-- 2 x Servo connectors, capable of driving a remote cutter
+- 2 x Servo connectors, capable of driving a remote cutters
 - 1 x Binky encoder connector
 - 16 x Microswitch control connectors, which can support up to a 16-color ERCF if fully utilized
 - 1 x I2C interface, using a hardware I2C port, which can be used to connect a temperature and humidity sensor
 - 1 x 24V GND connector, which can be used to supply power to remote cutters that require more than 5V
-- 1 x External CAN connector, which can be used to connect other mainboards in parallel, such as a passive enclosure mainboard
-- 1 x ADC interface, for use with a linear ratio synchronous buffer using an analog Hall effect sensor
+- 1 x External CAN connector, which can be used to connect other mainboards, such as a passive enclosure mainboard
+- 1 x ADC interface, for use with a proportional filament sync feedback sensor using an analog Hall effect sensor
 
 
 
