@@ -87,7 +87,7 @@ cd katapult
 
 
 
-```
+```bash
 # Clean the previous build
 make clean
  
@@ -137,7 +137,7 @@ Then use the lsusb command to check if a DFU device is present.
 
 
 
-```
+```bash
 lsusb
 ```
 
@@ -149,7 +149,7 @@ lsusb
 
 Use the following command to flash the board:
 
-```
+```bash
 make flash FLASH_DEVICE=0483:df11
 ```
 
@@ -179,7 +179,7 @@ After flashing is complete, please unplug the USB cable and connect the CAN sign
 
 Use the following command to check the CAN UUID. **[You may need to quickly double-press the reset button to enter the bootloader]**
 
-```
+```bash
 ~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
 ```
 
@@ -193,7 +193,7 @@ Use the following command to check the CAN UUID. **[You may need to quickly doub
 
 SSH into your host machine.
 
-```
+```bash
 # cd to the klipper directory
 cd ~/klipper
  
@@ -217,7 +217,7 @@ Set the build parameters according to the protocol you need to use.
 
 
 
-```
+```bash
 # If not using Katapult
 Bootloader offset (No bootloader) --->
  
@@ -242,7 +242,7 @@ Press `q` to exit, and `y` to save.
 
 Enter the make command to start compiling.
 
-```
+```bash
 make
 ```
 
@@ -274,7 +274,7 @@ Connect the CAN signal cable and 24V power supply.
 
 Then use the following command to check the UUID:
 
-```
+```bash
 ~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
 ```
 
@@ -286,7 +286,7 @@ Then use the following command to check the UUID:
 
 Use the following command to flash in CAN mode:
 
-```
+```bash
 cd ~/katapult/scripts
  
 python3 flashtool.py -i can0 -f ~/klipper/out/klipper.bin -u your_uuid_here
@@ -342,7 +342,7 @@ If no DFU device appears, repeat the operation.
 
 3: In SSH, enter:
 
-```
+```bash
 # Make sure you are in the klipper directory
 cd ~/klipper
  
@@ -368,7 +368,7 @@ Unplug and replug the USB data cable, use lsusb to check if there is an stm32f44
 
 Use the following command to check the device's serial ID:
 
-```
+```bash
 ls /dev/serial/by-id/
 ```
 
@@ -380,7 +380,7 @@ ls /dev/serial/by-id/
 
 The serial ID for this device is:
 
-```
+```bash
 serial: /dev/serial/by-id/usb-Klipper_stm32g0b1xx_20003A00025030544E383020-if00
 ```
 
@@ -406,7 +406,7 @@ After installation, you need to go to the mmu/base/mmu.cfg file to modify the pi
 
 HappyHare adaptation is in progress.
 
-```
+```Python
 #TZB V1.0
 [board_pins mmu]
 mcu: mmu # Assumes using an external / extra mcu dedicated to MMU
@@ -500,7 +500,7 @@ If you want to connect an I2C temperature and humidity sensor, using BME280 as a
 
 This configuration will use hardware I2C, thus saving processor resources.
 
-```
+```Python
 [temperature_sensor MMU_enclosure]
 sensor_type: BME280
 i2c_mcu: mmu
