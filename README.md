@@ -15,7 +15,7 @@ English | [中文](README_CN.md)
   - [3.2. Compiling Klipper Firmware](#32-compiling-klipper-firmware)
   - [3.3. Updating Firmware via Katapult](#33-updating-firmware-via-katapult)
   - [3.4. Updating Firmware via Katapult](#34-updating-firmware-via-katapult)
-- [4. ERCF Multicolor Wiring Diagram](#4-ercf-multicolor-wiring-diagram)
+- [4. ERCF Wiring Diagram](#4-ercf-wiring-diagram)
 - [5. Happy Hare Software Configuration](#5-happy-hare-software-configuration)
 - [6. I2C Temperature and Humidity Configuration](#6-i2c-temperature-and-humidity-configuration)
 
@@ -385,7 +385,7 @@ serial: /dev/serial/by-id/usb-Klipper_stm32g0b1xx_20003A00025030544E383020-if00
 
 
 
-## 4. ERCF Multicolor Wiring Diagram
+## 4. ERCF Wiring Diagram
 
 
 
