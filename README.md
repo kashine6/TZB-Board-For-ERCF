@@ -122,7 +122,8 @@ After compilation, katapult.bin will be generated in the ~/katapult/out folder.
 
 Use a jumper to short the 5V USB pins. After shorting, you can power the board via USB for flashing. 
 
-**Remember to remove the jumper after flashing is complete.**
+> [!TIP]
+> Remember to remove the jumper after flashing is complete.  
 
 If you are using 24V to power the board, you do not need to short the jumper, but you can only use Method 2 below to enter DFU mode.
 
@@ -174,7 +175,9 @@ After flashing is complete, please unplug the USB cable and connect the CAN sign
 
 
 
-Use the following command to check the CAN UUID. **[You may need to quickly double-press the reset button to enter the bootloader]**
+Use the following command to check the CAN UUID. 
+> [!TIP]
+> You may need to quickly double-press the reset button to enter the bootloader.
 
 ```bash
 ~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
@@ -299,10 +302,9 @@ Then continue to use the previous command to check the CAN information.
 
 
 
-
-**To upgrade the CAN firmware in the future, repeat this process. When compiling the Katapult firmware earlier, we set it to enter Katapult mode by double-pressing the reset button.**
-
-**In practice, you can also directly enter the flashing command, and the board will automatically restart and enter Katapult.**
+> [!TIP]
+> To upgrade the CAN firmware in the future, repeat this process. When compiling the Katapult firmware earlier, we set it to enter Katapult mode by double-pressing the reset button. 
+> In practice, you can also directly enter the flashing command, and the board will automatically restart and enter Katapult.  
 
 ### 3.4 Updating Firmware via DFU
 
@@ -310,7 +312,8 @@ Then continue to use the previous command to check the CAN information.
 
 Use a jumper to short the 5V USB pins. After shorting, you can power the board via USB for flashing. 
 
-**Remember to remove the jumper after flashing is complete.**
+> [!TIP]
+> Remember to remove the jumper after flashing is complete.
 
 If you are using 24V to power the board, you do not need to short the jumper, but you can only use Method 2 below to enter DFU mode.
 
@@ -378,7 +381,8 @@ The serial ID for this device is:
 serial: /dev/serial/by-id/usb-Klipper_stm32g0b1xx_20003A00025030544E383020-if00
 ```
 
-**For later use, please remove the 5V USB jumper and connect 24V power to the CAN interface.**
+> [!TIP]
+> For later use, please remove the 5V USB jumper and connect 24V power to the CAN interface.
 
 
 
