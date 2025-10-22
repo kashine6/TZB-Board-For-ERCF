@@ -2,6 +2,22 @@
 
 English | [中文](README_CN.md)
 
+---
+
+## Table of Contents
+
+- [1. Introduction](#1-introduction)
+- [2. PIN Diagram](#2-pin-diagram)
+- [3. Flashing Guide](#3-flashing-guide)
+- [3.1. Flashing Katapult (Optional)](#3-1-flashing-katapult-optional)
+- [3.2. Compiling Klipper Firmware](#3-2-compiling-klipper-firmware)
+- [3.3. Updating Firmware via Katapult](#3-3-updating-firmware-via-katapult)
+- [3.4. Updating Firmware via Katapult](#3-3-updating-firmware-via-katapult)
+- [4. ERCF Multicolor Wiring Diagram](#4-ercf-multicolor-wiring-diagram)
+- [5. Happy Hare Software Configuration](#5-happy-hare-software-configuration)
+- [6. I2C Temperature and Humidity Configuration](#6-i2c-temperature-and-humidity-configuration)
+
+---
 
 ![img](Assets/1.jpg)
 
