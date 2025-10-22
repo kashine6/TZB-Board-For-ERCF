@@ -161,7 +161,7 @@ make flash FLASH_DEVICE=0483:df11
 
 After flashing is complete, please unplug the USB cable and connect the CAN signal cable and 24V power supply.
 
-> [!NOTE]
+> [!IMPORTANT]
 
 > 1: Remember to remove the 5V USB jumper.
 
