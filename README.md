@@ -101,7 +101,8 @@ make
 
 ![img](Assets/4.png)
 
-**The speed can be set according to your needs, 1000000 is recommended.**
+> [!TIP]
+> The speed can be set according to your needs, 1000000 is recommended.
 
 
 
